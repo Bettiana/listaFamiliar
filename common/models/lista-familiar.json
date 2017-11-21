@@ -25,7 +25,7 @@
       "foreignKey": ""
     },
     "listaUsuarios": {
-      "type": "hasMany",
+      "type": "belongsTo",
       "model": "Usuario",
       "foreignKey": "owner"
     }

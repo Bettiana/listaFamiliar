@@ -21,10 +21,10 @@
       "model": "ListaFamiliar",
       "foreignKey": "listaFamiliarId"
     },
-    "owner": {
+    "lista": {
       "type": "hasOne",
       "model": "ListaFamiliar",
-      "foreignKey": ""
+      "foreignKey": "owner"
     },
     "listas": {
       "type": "hasAndBelongsToMany",
